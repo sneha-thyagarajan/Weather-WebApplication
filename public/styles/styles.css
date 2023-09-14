@@ -1,0 +1,87 @@
+body {
+    background-color: #8BFD8A;
+    /* #B6DFF8 */
+}
+
+.heading {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    width: 90%;
+}
+
+.top {
+    background-image: url('/images/aes.jpeg');
+    height: 95vh;
+    width: 100%;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #2C76D5;
+    font-size: 70px;
+    text-shadow: 3px 3px 1px black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+input {
+    opacity: 50%;
+    border-color: #2C76D5;
+    border-style: ridge;
+    border-radius: 25px 25px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #2C76D5;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbtn {
+    opacity: 80%;
+    border-color: #2C76D5;
+    border-style: ridge;
+    border-radius: 25px 25px;
+    /* box-shadow: 3px 3px 5px black; */
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #2C76D5;
+    width: 9%;
+}
+
+.searchbtn:hover {
+    box-shadow: 3px 3px 5px black;
+}
+
+.context {
+    background-color: #8BFD8A;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: center;
+    font-family: sans-serif;
+    color: #2C76D5;
+}
+
+
+/* p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: #2C76D5;
+    font-weight: 500;
+    text-shadow: 3px 3px 4px white;
+} */
