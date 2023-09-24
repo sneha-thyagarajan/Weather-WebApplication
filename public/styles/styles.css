@@ -104,6 +104,7 @@ p {
     padding: 20px;
 }
 
+
 div.name h1 {
     font-family: 'Roboto Slab', serif;
     font-size: clamp(32px, 4vw, 38px);
@@ -126,9 +127,9 @@ div.name p {
     margin: auto;
     width: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: 2fr;
-    border-radius: 25px 25px;
+    border-radius: 20px 20px;
 }
 
 div.mini h1 {
@@ -141,15 +142,23 @@ div.mini h1 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.icon{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: auto;
 
-div.mini img {
-    margin: auto 9px auto auto;
+
+}
+div.icon img {
+    display: inline;  
     height: min-content;
-    align-items: end;
+    filter: drop-shadow(3px 3px 5px black);
 }
 
-div.mini p {
-    margin: auto auto auto 0;
+div.icon p {
+    display: inline;
+
     font-size: clamp(22px, 4vw, 4vh);
 }
 
