@@ -15,8 +15,6 @@ app.get("/", (req, res) => {
 
 app.post("/search", async(req, res) => {
    
-    // const url='https://api.openweathermap.org/data/2.5/weather?q='+ query+'&appid='+apikey+'&units=metric'
-
     try{
         const query = req.body.search;
         const apikey='8271023a2bd335144f2c2160049b438d'
@@ -32,11 +30,6 @@ app.post("/search", async(req, res) => {
             error: error.message,
         });
     }
-   
-
-
-    // res.render("forecast.ejs");
-
 });
 
 
